@@ -1,0 +1,347 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans',sans-serif;
+  background: linear-gradient(to right, #D3EDF6, #7398B6);
+}
+
+.wrapper{
+  width: 1100px;
+  margin: auto; 
+  position: relative; 
+}
+
+.wrapper .text-container .menu{
+  z-index: 99;
+}
+
+.wrapper .text-container #text {
+  font-size: 35px;
+  font-weight: bold;
+  color: #3f72af;
+  margin-left: 40px;
+}
+
+.wrapper #home{
+  border-radius: 90px;
+  background-color: #A2CCE9;
+  margin: 80px;
+  box-shadow: 2px 2px 20px grey;
+  color: #333333;
+}
+
+.wrapper #home img{
+  margin: 50px;
+  border-radius: 50px;
+
+}
+
+.wrapper #home .kolom{
+  padding-bottom: 10px;
+}
+
+.wrapper #home h2 span{
+  text-decoration: underline wavy #3f72af;
+}
+
+#courses{
+  box-shadow: 2px 2px 20px grey;
+  margin-top: 120px;
+  background-color: #A3C9E2;
+  border-radius: 90px;
+  color: #4A4A4A;
+}
+
+#courses .kolom {
+  color: #333333;
+  padding: 20px 25px;
+  margin: 40px;
+}
+
+#courses img{
+  margin: 30px;
+  border-radius: 50%;
+}
+
+.logo a{
+  font-size: 50px;
+  font-weight: bold;
+  float: left;
+  font-family: courier;
+  color: #364f6b;
+}
+
+.menu{
+  float: right;
+}
+
+nav{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #FFFFFF;
+  border-bottom: 1px solid #364f6b;
+  z-index: 10;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li{
+  float: left;
+}
+
+nav ul li a{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+section{
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+kolom{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'comic sans ms';
+  color: #364f6b;
+}
+
+h2{
+  font-family: 'comic sans ms';
+  font-weight: 800;
+  font-size: 45px;
+  margin-top: 10px 0px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
+}
+
+a.tbl-biru{
+  background: #3f72af;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-biru:hover{
+  background: #fc5185;
+  text-decoration: none;
+}
+
+a.tbl-pink{
+  background: #fc5185;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-pink:hover{
+  background: #3f72af;
+  text-decoration: none
+}
+
+p{
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+
+  #tutors{
+    margin-top: 100px;
+    color: #2F2F2F;
+  }
+  
+  .tengah{
+    text-align: center;
+    width: 100%;
+  }
+
+  .tutors .tutors_box .profile .info{
+    font-size: 20px;
+  }
+  
+.tutors .tutors_box{
+    width: 95%;
+    margin: 80px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 13%;
+}
+
+.tutors .tutors_box .profile{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    transform: 0.4s;
+}
+
+.tutors .tutors_box .profile:hover{
+    border-radius: 20px;
+    height: 230px;
+}
+
+.tutors .tutors_box .profile img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    transition: 0.4s;
+}
+
+.tutors .tutors_box .profile:hover img{
+    border-radius: 20px;
+    margin-top: -150px;
+}
+
+.tutors .tutors_box .profile .info{
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    transition: 0.4s;
+}
+
+.tutors .tutors_box .profile:hover .info{
+    top: 60%;
+}
+
+.tutors .tutors_box .profile .info .name{
+    color: black;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.tutors .tutors_box .profile .info .bio{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 10px auto;
+}
+
+#partners{
+  margin-top: 70px;
+}
+
+.partners-list{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kartu-partners{
+  width: 20%;
+  margin: 0 auto;
+  
+}
+
+.kartu-partners img{
+  width: 150px;
+  border-radius: 50%;
+}
+
+#contact{
+  background: #eef8ff;
+  padding: 50px 0px;
+}
+
+.footer{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.footer-section{
+  width: 20%;
+  margin: 0 auto;
+}
+
+.footer-section li{
+  list-style-type: none;
+  padding: 7px;
+  position: relative;
+}
+
+h3{
+  font-family: 'comic sans ms';
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
+}
+
+.dolphin {
+  position: absolute;
+  animation: moveRightToLeft 7s linear infinite;
+  right: -50px;
+}
+
+@keyframes moveRightToLeft {
+  0% {
+    right: 0px; /* Mulai tepat di luar tepi kanan */
+  }
+  50% {
+    right: 100%;
+  }
+  51% {
+    right: 0px;
+  }
+  100% {
+    right: 100%; /* Bergerak ke sisi kiri layar */
+  }
+}
+
+
+@media screen and (max-width: 991.98px){
+  .wrapper{
+    width: 90%;
+  }
+}
